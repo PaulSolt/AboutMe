@@ -13,6 +13,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // TODO: Don't show "Label"
+        nameLabel.text = "" // = nil
+        hobbiesLabel.text = ""
+        
+//        nameLabel.isHidden = true
+//        nameLabel.alpha = 0 // 0 == hidden
 //         print("My name is Paul Solt")
     }
 
@@ -20,6 +26,7 @@ class ViewController: UIViewController {
         
         nameLabel.text = "Paul Solt"
         hobbiesLabel.text = "Pour over coffee, frisbee, running, iOS development"
+//        nameLabel.alpha = 1  // 1 == visible
         
     }
     

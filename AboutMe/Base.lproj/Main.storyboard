@@ -37,7 +37,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="urF-xV-Qdy">
-                                <rect key="frame" x="96" y="122" width="42" height="21"/>
+                                <rect key="frame" x="96" y="122.5" width="42" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -67,13 +67,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="hobbiesLabel" destination="urF-xV-Qdy" id="K88-eX-Yd1"/>
-                        <outlet property="nameLabel" destination="6Ir-qu-5Uw" id="ugH-JN-qdR"/>
+                        <outlet property="hobbiesLabel" destination="urF-xV-Qdy" id="fxh-vE-mjy"/>
+                        <outlet property="nameLabel" destination="6Ir-qu-5Uw" id="jwm-rg-0HS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="97" y="106"/>
+            <point key="canvasLocation" x="95.652173913043484" y="105.80357142857143"/>
         </scene>
     </scenes>
 </document>
