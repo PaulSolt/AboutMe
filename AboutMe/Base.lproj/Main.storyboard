@@ -42,24 +42,38 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0KF-eZ-Mzc">
+                                <rect key="frame" x="105.5" y="818" width="203" height="44"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <state key="normal" title="Introduce Yourself"/>
+                                <connections>
+                                    <action selector="introduceYourselfButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="av5-th-SuR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="kLg-Qh-RVi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="49" id="1cd-Xe-gpl"/>
                             <constraint firstItem="wej-Qz-KTI" firstAttribute="baseline" secondItem="urF-xV-Qdy" secondAttribute="baseline" id="5H9-oJ-1Pi"/>
                             <constraint firstItem="kLg-Qh-RVi" firstAttribute="baseline" secondItem="6Ir-qu-5Uw" secondAttribute="baseline" id="AnC-zo-Ybe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0KF-eZ-Mzc" secondAttribute="bottom" id="Ch0-Pt-jYy"/>
                             <constraint firstItem="kLg-Qh-RVi" firstAttribute="leading" secondItem="wej-Qz-KTI" secondAttribute="leading" id="W1n-sW-Iwi"/>
                             <constraint firstItem="kLg-Qh-RVi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="dPW-ao-eFp"/>
                             <constraint firstItem="6Ir-qu-5Uw" firstAttribute="leading" secondItem="kLg-Qh-RVi" secondAttribute="trailing" constant="8" symbolic="YES" id="hWA-Iy-DX2"/>
                             <constraint firstItem="wej-Qz-KTI" firstAttribute="top" secondItem="kLg-Qh-RVi" secondAttribute="bottom" constant="8" symbolic="YES" id="prE-aR-GuB"/>
                             <constraint firstItem="urF-xV-Qdy" firstAttribute="leading" secondItem="wej-Qz-KTI" secondAttribute="trailing" constant="8" symbolic="YES" id="qOp-zk-IV1"/>
+                            <constraint firstItem="0KF-eZ-Mzc" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="tfH-Ex-T6A"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="hobbiesLabel" destination="urF-xV-Qdy" id="K88-eX-Yd1"/>
+                        <outlet property="nameLabel" destination="6Ir-qu-5Uw" id="ugH-JN-qdR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-32" y="125"/>
+            <point key="canvasLocation" x="97" y="106"/>
         </scene>
     </scenes>
 </document>
